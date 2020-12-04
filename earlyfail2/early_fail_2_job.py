@@ -8,7 +8,8 @@
 
 import os
 from pyats.easypy import run
-import nothing
+
+raise Exception("this is the exception")
 
 
 # All run() must be inside a main function

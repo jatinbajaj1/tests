@@ -9,8 +9,10 @@
 import os
 from pyats.easypy import run
 
-raise Exception("this is the exception")
 
+
+import sys
+sys.exit()
 
 # All run() must be inside a main function
 def main():

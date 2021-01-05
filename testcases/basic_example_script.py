@@ -86,7 +86,7 @@ class tc_one(aetest.Testcase):
         """ Sample test section. Only print """
         log.info("First test section ")
         import time
-        for i in range(1000):
+        for i in range(50):
             time.sleep(1)
             log.info("On step: {}".format(i))
 

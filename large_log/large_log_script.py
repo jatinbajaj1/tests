@@ -90,7 +90,7 @@ class tc_one(aetest.Testcase):
         one_gb = 1024 * 1024 * 1024  # 1GB
         log.info("Generating the large file ")
         for i in range(1024 * 1024):
-            log.info(i + '-' * 1024)
+            log.info(str(i) + '-' * 1024)
 
         log.info("Done.")
 

@@ -84,12 +84,6 @@ class tc_one(aetest.Testcase):
     @aetest.test
     def simple_test_1(self):
         """ Sample test section. Only print """
-        log.info("Generating the large file ")
-        import os
-
-        one_gb = 1024 * 1024 * 1024  # 1GB
-        with open('large_file', 'wb') as fout:
-            fout.write(os.urandom(one_gb))
 
         log.info("Done.")
 

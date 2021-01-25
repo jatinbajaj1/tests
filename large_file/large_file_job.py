@@ -14,7 +14,7 @@ from pyats.easypy import run
 def main():
     # Find the location of the script in relation to the job file
     test_path = os.path.dirname(os.path.abspath(__file__))
-    testscript = os.path.join(test_path, 'early_fail_script.py')
+    testscript = os.path.join(test_path, 'large_file_script.py')
 
     # Execute the testscript
     run(testscript=testscript)

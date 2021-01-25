@@ -24,8 +24,6 @@ log = logging.getLogger(__name__)
 # This is how to create a CommonSetup
 # You can have one of no CommonSetup
 # CommonSetup can be named whatever you want
-import sys
-sys.exit()
 
 
 class common_setup(aetest.CommonSetup):

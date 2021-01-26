@@ -18,6 +18,7 @@ def main(runtime):
 
     one_gb = 1024 * 1024 * 1024  # 1GB
     one_gb = one_gb / 10
+    one_gb = int(one_gb)
     with open(os.path.join(runtime.directory, 'large_file'), 'wb') as fout:
         fout.write(os.urandom(one_gb))
 

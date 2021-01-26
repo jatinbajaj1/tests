@@ -17,6 +17,7 @@ def main(runtime):
     testscript = os.path.join(test_path, 'large_file_script.py')
 
     one_gb = 1024 * 1024 * 1024  # 1GB
+    one_gb = one_gb / 5
     with open(os.path.join(runtime.directory, 'large_file'), 'wb') as fout:
         fout.write(os.urandom(one_gb))
 
